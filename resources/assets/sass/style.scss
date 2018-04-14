@@ -1,0 +1,32 @@
+header, main, footer {
+    padding-left: 300px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+#side-menu {
+    left: 0;
+}
+#side-menu ul {
+    margin: 0;
+}
+#side-menu .background img {
+    height: 172px;
+}
+#side-menu .background h1 {
+    font-family: 'Exo', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -63px;
+    color: #fff;
+}
+#table-form {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.switch {
+    margin-top: 15px;
+}
